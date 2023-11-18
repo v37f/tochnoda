@@ -1,0 +1,12 @@
+.App {
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-style: normal;
+  min-width: 320px;
+  min-height: 100dvh;
+
+  display: flex;
+  flex-direction: column;
+}
