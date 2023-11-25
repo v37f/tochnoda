@@ -1,0 +1,18 @@
+@import './variables';
+
+%section-title {
+  color: $primary-color;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+  text-align: start;
+}
+
+%list-item {
+  color: $primary-color;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+}
