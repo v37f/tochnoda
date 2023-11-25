@@ -1,6 +1,23 @@
 @import '../../base/variables';
 
-.header__text {
-  color: $primary-color;
-  margin: 200px;
+.header {
+  padding: 32px 0 10px;
+  display: flex;
+  gap: 30px;
+  margin: 0 auto;
+
+  &__navigation {
+    display: flex;
+    gap: 24px;
+    align-self: flex-end;
+    margin-bottom: 8px;
+  }
+
+  &__link {
+    color: $primary-color;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+  }
 }
