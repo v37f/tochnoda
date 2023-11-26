@@ -1,0 +1,16 @@
+@import '../../base/base';
+
+.minics {
+  padding-bottom: 82px;
+  &__title {
+    @extend %section-title;
+    margin-bottom: 12px;
+  }
+  &__list {
+    margin: 0 0 40px;
+    padding-left: 24px;
+  }
+  &__list-item {
+    @extend %list-item;
+  }
+}
