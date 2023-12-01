@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/tochnoda/static/css/main.db603397.css",
+    "main.js": "/tochnoda/static/js/main.dfc87034.js",
+    "static/media/video_7.mp4": "/tochnoda/static/media/video_7.969e19958cc9f52148ef.mp4",
+    "static/media/video_1_NY.mp4": "/tochnoda/static/media/video_1_NY.6f026c847b0cae344cc3.mp4",
+    "static/media/video_5.mp4": "/tochnoda/static/media/video_5.5e5b669fc01fc1546359.mp4",
+    "static/media/video_4.mp4": "/tochnoda/static/media/video_4.792b340155a3ce5ce677.mp4",
+    "static/media/video_2.mp4": "/tochnoda/static/media/video_2.3dc5bd49534608442b24.mp4",
+    "static/media/video_3.mp4": "/tochnoda/static/media/video_3.78550430609746c1ed0d.mp4",
+    "static/media/video_6.mp4": "/tochnoda/static/media/video_6.dc009fe38a5aeeede0ef.mp4",
+    "static/media/video_1.mp4": "/tochnoda/static/media/video_1.62533ef3496408d647f0.mp4",
+    "static/media/video_6_poster.png": "/tochnoda/static/media/video_6_poster.8cb145dbb8bb3dca8ce9.png",
+    "static/media/video_3_poster.png": "/tochnoda/static/media/video_3_poster.2a5bd62a26d07d1d5038.png",
+    "static/media/video_7_poster.png": "/tochnoda/static/media/video_7_poster.3830004730fca6a30f1b.png",
+    "static/media/video_1_NY_poster.png": "/tochnoda/static/media/video_1_NY_poster.570472bb63ed6243d50e.png",
+    "static/media/video_5_poster.png": "/tochnoda/static/media/video_5_poster.c4ad4b9f485b40e63799.png",
+    "static/media/video_2_poster.png": "/tochnoda/static/media/video_2_poster.d3f9d7ec840f8decd259.png",
+    "static/media/Raleway-SemiBold.ttf": "/tochnoda/static/media/Raleway-SemiBold.9a6a9af38bf678bce031.ttf",
+    "static/media/Raleway-Bold.ttf": "/tochnoda/static/media/Raleway-Bold.757abe402eb07a0ab739.ttf",
+    "static/media/video_1_poster.png": "/tochnoda/static/media/video_1_poster.5890c0b6b87a9ca28cb7.png",
+    "static/media/tochnoda_logo.svg": "/tochnoda/static/media/tochnoda_logo.63e1b66059990d19b140.svg",
+    "static/media/video_4_poster.png": "/tochnoda/static/media/video_4_poster.58732a3549a643010920.png",
+    "static/media/new_marker.svg": "/tochnoda/static/media/new_marker.12921b2f3f55ae3e1922.svg",
+    "index.html": "/tochnoda/index.html",
+    "static/media/play_icon.svg": "/tochnoda/static/media/play_icon.b178da9c0deaf9c747ae.svg",
+    "main.db603397.css.map": "/tochnoda/static/css/main.db603397.css.map",
+    "main.dfc87034.js.map": "/tochnoda/static/js/main.dfc87034.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db603397.css",
+    "static/js/main.dfc87034.js"
+  ]
+}
