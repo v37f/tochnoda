@@ -1,7 +1,7 @@
 import './Minics.scss';
-import video_05 from '../../videos/05.mp4';
+import VideoGrid from '../VideoGrid/VideoGrid';
 
-function Minics() {
+function Minics({ videosData }) {
   return (
     <section className="minics">
       <h2 className="minics__title">Миники</h2>
@@ -15,6 +15,7 @@ function Minics() {
           компактно, минималистично, простоит долго
         </li>
       </ul>
+      <VideoGrid videosData={videosData} />
     </section>
   );
 }

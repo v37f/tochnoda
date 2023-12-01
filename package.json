@@ -36,6 +36,7 @@
     ]
   },
   "devDependencies": {
-    "sass": "^1.69.5"
+    "sass": "^1.69.5",
+    "video.js": "^8.6.1"
   }
 }
