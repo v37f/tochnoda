@@ -42,7 +42,7 @@ function Deeplink({ id, styleType = 'icon', socialsData }) {
         setAttributes((attributes) => ({
           ...attributes,
           androidApk: `intent://send?phone=${phone}&text=${message}#Intent;package=com.whatsapp;scheme=whatsapp;end`,
-          apk: `whatsapp://${phone}?text=${message}`,
+          apk: `whatsapp://send?phone=${phone}&text=${message}`,
           href: `https://web.whatsapp.com/send?phone=${phone}&text=${message}&source=&data=`,
         }));
         break;
