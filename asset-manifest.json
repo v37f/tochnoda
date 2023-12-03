@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tochnoda/static/css/main.db603397.css",
-    "main.js": "/tochnoda/static/js/main.dfc87034.js",
+    "main.css": "/tochnoda/static/css/main.4c823d51.css",
+    "main.js": "/tochnoda/static/js/main.8f0c3609.js",
     "static/media/video_7.mp4": "/tochnoda/static/media/video_7.969e19958cc9f52148ef.mp4",
     "static/media/video_1_NY.mp4": "/tochnoda/static/media/video_1_NY.6f026c847b0cae344cc3.mp4",
     "static/media/video_5.mp4": "/tochnoda/static/media/video_5.5e5b669fc01fc1546359.mp4",
@@ -21,14 +21,18 @@
     "static/media/video_1_poster.png": "/tochnoda/static/media/video_1_poster.5890c0b6b87a9ca28cb7.png",
     "static/media/tochnoda_logo.svg": "/tochnoda/static/media/tochnoda_logo.63e1b66059990d19b140.svg",
     "static/media/video_4_poster.png": "/tochnoda/static/media/video_4_poster.58732a3549a643010920.png",
+    "static/media/whatsapp_icon.svg": "/tochnoda/static/media/whatsapp_icon.ee26147d017191a69fe4.svg",
     "static/media/new_marker.svg": "/tochnoda/static/media/new_marker.12921b2f3f55ae3e1922.svg",
+    "static/media/telegram_icon.svg": "/tochnoda/static/media/telegram_icon.2af5c0a4c190a932b1e2.svg",
+    "static/media/instagram_icon.svg": "/tochnoda/static/media/instagram_icon.de878e1f10873273019e.svg",
+    "static/media/facebook_icon.svg": "/tochnoda/static/media/facebook_icon.af5283e73a1b1b023741.svg",
     "index.html": "/tochnoda/index.html",
     "static/media/play_icon.svg": "/tochnoda/static/media/play_icon.b178da9c0deaf9c747ae.svg",
-    "main.db603397.css.map": "/tochnoda/static/css/main.db603397.css.map",
-    "main.dfc87034.js.map": "/tochnoda/static/js/main.dfc87034.js.map"
+    "main.4c823d51.css.map": "/tochnoda/static/css/main.4c823d51.css.map",
+    "main.8f0c3609.js.map": "/tochnoda/static/js/main.8f0c3609.js.map"
   },
   "entrypoints": [
-    "static/css/main.db603397.css",
-    "static/js/main.dfc87034.js"
+    "static/css/main.4c823d51.css",
+    "static/js/main.8f0c3609.js"
   ]
 }
