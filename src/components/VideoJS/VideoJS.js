@@ -21,14 +21,12 @@ export const VideoJS = (props) => {
         videojs.log('player is ready');
         onReady && onReady(player);
       });
-      console.log('player1');
       // You could update an existing player in the `else` block here
       // on prop change, for example:
     } else {
       player = playerRef.current;
       player.autoplay(options.autoplay);
       player.src(options.sources);
-      console.log('player2');
     }
     // Redefine tap handler to able play/pause by tap video on mobiles
     player.boundHandleTechTap_ = () => {
