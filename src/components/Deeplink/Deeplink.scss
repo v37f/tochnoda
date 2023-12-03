@@ -1,0 +1,60 @@
+@import '../../base/base';
+
+.deeplink {
+  text-decoration: none;
+
+  &:has(.deeplink__custom) {
+    margin: 0 0 0 auto;
+  }
+
+  &__custom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 42px;
+    border-radius: 16px;
+    background-color: $secondary-color;
+    transition: transform 0.2s;
+
+    &:active {
+      transform: scale(0.95);
+    }
+    &::after {
+      content: 'Купить';
+      color: #fff;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+
+  &__icon {
+    width: 44px;
+    height: 44px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &_type_whatsapp {
+      background-image: url('../../images/whatsapp_icon.svg');
+    }
+
+    &_type_telegram {
+      background-image: url('../../images/telegram_icon.svg');
+    }
+
+    &_type_facebook {
+      background-image: url('../../images/facebook_icon.svg');
+    }
+
+    &_type_instagram {
+      background-image: url('../../images/instagram_icon.svg');
+    }
+  }
+
+  &__app-frame {
+    display: none;
+  }
+}

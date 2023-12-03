@@ -1,7 +1,8 @@
 import './Minics.scss';
 import VideoGrid from '../VideoGrid/VideoGrid';
+import Deeplink from '../Deeplink/Deeplink';
 
-function Minics({ videosData }) {
+function Minics({ videosData, socialsData }) {
   return (
     <section className="minics">
       <h2 className="minics__title">Миники</h2>
@@ -16,6 +17,11 @@ function Minics({ videosData }) {
         </li>
       </ul>
       <VideoGrid videosData={videosData} />
+      <div className="minics__buy">
+        <p className="minics__sale-price">2500 &#8381;</p>
+        <p className="minics__full-price">3500 &#8381;</p>
+        <Deeplink id="whatsapp" styleType="custom" socialsData={socialsData} />
+      </div>
     </section>
   );
 }

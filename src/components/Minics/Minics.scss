@@ -1,16 +1,74 @@
 @import '../../base/base';
 
 .minics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
   padding-bottom: 82px;
   &__title {
     @extend %section-title;
     margin-bottom: 12px;
+    align-self: flex-start;
   }
+
   &__list {
     margin: 0 0 40px;
     padding-left: 24px;
+    align-self: flex-start;
   }
+
   &__list-item {
     @extend %list-item;
+  }
+
+  &__buy {
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+  }
+
+  &__sale-price {
+    color: $secondary-color;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-wrap: nowrap;
+    margin: 0;
+  }
+
+  &__full-price {
+    color: #777;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    text-decoration: line-through;
+    padding-top: 22px;
+    text-wrap: nowrap;
+    margin: 0;
+  }
+
+  &__button {
+    cursor: pointer;
+    margin: 0 0 0 auto;
+    width: 200px;
+    height: 42px;
+    border: none;
+    border-radius: 16px;
+    background-color: $secondary-color;
+    transition: all 0.2s;
+  }
+
+  &__button:active {
+    transform: scale(0.95);
+  }
+
+  &__button-text {
+    color: #fff;
+
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
   }
 }

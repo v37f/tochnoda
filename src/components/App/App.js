@@ -4,6 +4,7 @@ import Main from '../Main/Main';
 import About from '../About/About';
 import Minics from '../Minics/Minics';
 import videosData from '../../utils/videosData';
+import { socialsData } from '../../utils/constants';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Header />
       <Main>
         <About />
-        <Minics videosData={videosData} />
+        <Minics videosData={videosData} socialsData={socialsData} />
       </Main>
     </div>
   );
