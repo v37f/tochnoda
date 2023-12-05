@@ -4,6 +4,7 @@ import './Deeplink.scss';
 function Deeplink({ id, styleType = 'icon', socialsData }) {
   const deeplinkRef = useRef(null);
   const appframeRef = useRef(null);
+
   const { phone, telegram, instagram, facebook, message } = socialsData;
   const [attributes, setAttributes] = useState({
     androidApk: '',
@@ -42,7 +43,7 @@ function Deeplink({ id, styleType = 'icon', socialsData }) {
         setAttributes((attributes) => ({
           ...attributes,
           androidApk: `intent://send?phone=${phone}&text=${message}#Intent;package=com.whatsapp;scheme=whatsapp;end`,
-          apk: `whatsapp://send?phone=${phone}&text=${message}`,
+          apk: `whatsapp://send?phone=${phone}`,
           href: `https://web.whatsapp.com/send?phone=${phone}&text=${message}&source=&data=`,
         }));
         break;
@@ -79,11 +80,13 @@ function Deeplink({ id, styleType = 'icon', socialsData }) {
         break;
       case 'ios':
         appframeRef.current.setAttribute('src', apk_url);
+        console.log(appframeRef.current);
         break;
       default:
         window.open(siteUrl, '_blank', 'noopener,noreferrer');
         break;
     }
+    console.log(appframeRef.current.getAttribute('src'));
   };
 
   return (
@@ -102,7 +105,7 @@ function Deeplink({ id, styleType = 'icon', socialsData }) {
         <div className="deeplink__custom"></div>
       ) : (
         <div
-          class={`deeplink__icon deeplink__icon_type_${id}`}
+          className={`deeplink__icon deeplink__icon_type_${id}`}
           aria-hidden="true"
         ></div>
       )}
