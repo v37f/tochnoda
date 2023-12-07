@@ -100,14 +100,15 @@ function Deeplink({ id, styleType = 'icon', socialsData }) {
       target="_blanc"
       rel="noreferrer"
       ref={deeplinkRef}
+      aria-label={`Перейти в ${id}`}
     >
-      {styleType === 'custom' ? (
-        <div className="deeplink__custom"></div>
-      ) : (
+      {styleType === 'icon' ? (
         <div
           className={`deeplink__icon deeplink__icon_type_${id}`}
           aria-hidden="true"
         ></div>
+      ) : (
+        <div className={`deeplink__${styleType}`} aria-hidden="true"></div>
       )}
       <iframe
         id="app-frame"

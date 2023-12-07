@@ -3,11 +3,11 @@
 .deeplink {
   text-decoration: none;
 
-  &:has(.deeplink__custom) {
+  &:has(.deeplink__buy-button) {
     margin: 0 0 0 auto;
   }
 
-  &__custom {
+  &__buy-button {
     display: flex;
     flex-direction: column;
     justify-content: center;
