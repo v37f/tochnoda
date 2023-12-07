@@ -1,0 +1,33 @@
+@import '../../base/base';
+
+.instagram {
+  background-image: url('../../images/instagram_background.png');
+  background-position: bottom right;
+  background-size: 162px 261px;
+  background-repeat: no-repeat;
+  padding: 16px 0 31px;
+  &__title {
+    @extend %section-title;
+    margin-bottom: 50px;
+    max-width: 319px;
+  }
+
+  &__list {
+    padding-left: 19px;
+    align-self: flex-start;
+  }
+
+  &__list-item {
+    @extend %list-item;
+    margin-bottom: 16px;
+    max-width: 231px;
+    color: #383c41;
+    &::marker {
+      color: $secondary-color;
+    }
+  }
+
+  &__list-item:last-of-type {
+    margin: 0;
+  }
+}
