@@ -14,7 +14,7 @@ function App() {
       <Main>
         <About />
         <Minics videosData={videosData} socialsData={socialsData} />
-        <Instagram />
+        <Instagram socialsData={socialsData} />
       </Main>
     </div>
   );

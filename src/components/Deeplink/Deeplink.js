@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import './Deeplink.scss';
 
-function Deeplink({ id, styleType = 'icon', socialsData }) {
+function Deeplink({ id, styleType = 'icon', socialsData, children = '' }) {
   const deeplinkRef = useRef(null);
   const appframeRef = useRef(null);
 
@@ -48,7 +48,7 @@ function Deeplink({ id, styleType = 'icon', socialsData }) {
         }));
         break;
     }
-  }, [id, phone, message, telegram]);
+  }, [id, phone, message, telegram, instagram, facebook]);
 
   const getMobileOperatingSystem = () => {
     var userAgent = navigator.userAgent || window.opera;
@@ -108,7 +108,9 @@ function Deeplink({ id, styleType = 'icon', socialsData }) {
           aria-hidden="true"
         ></div>
       ) : (
-        <div className={`deeplink__${styleType}`} aria-hidden="true"></div>
+        <div className={`deeplink__${styleType}`} aria-hidden="true">
+          {children}
+        </div>
       )}
       <iframe
         id="app-frame"

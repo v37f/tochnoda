@@ -13,8 +13,10 @@
   }
 
   &__list {
-    padding-left: 19px;
+    padding-left: 21.5px;
+    margin: 0;
     align-self: flex-start;
+    list-style-type: none;
   }
 
   &__list-item {
@@ -22,7 +24,14 @@
     margin-bottom: 16px;
     max-width: 231px;
     color: #383c41;
-    &::marker {
+    position: relative;
+    &::before {
+      content: '\2022';
+      font-size: 28px;
+      line-height: 28px;
+      position: absolute;
+      top: calc(50% - 16px); // половина list-item минус половина высоты текста
+      left: -21.5px;
       color: $secondary-color;
     }
   }

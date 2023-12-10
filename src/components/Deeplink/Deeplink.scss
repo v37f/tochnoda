@@ -7,6 +7,58 @@
     margin: 0 0 0 auto;
   }
 
+  &__animated-button {
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 4px;
+    width: max-content;
+    color: $secondary-color;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.96px;
+    padding: 6px 12px;
+    box-sizing: border-box;
+    border-radius: 12px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      z-index: -2;
+      left: -50%;
+      top: -350%;
+      width: 200%;
+      height: 800%;
+      background-color: #fff;
+      background-repeat: no-repeat;
+      background-size: 50% 50%, 50% 50%;
+      background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+      background-image: linear-gradient(90deg, $secondary-color 65%, #fff),
+        linear-gradient(90deg, #fff, $secondary-color 35%),
+        linear-gradient(270deg, $secondary-color 65%, #fff),
+        linear-gradient(270deg, #fff, $secondary-color 35%);
+      animation: border-animation 4s ease-in-out infinite;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      z-index: -1;
+      left: 2.25px;
+      top: 2px;
+      width: calc(100% - 4px);
+      height: calc(100% - 4px);
+      background: #fff;
+      border-radius: 10px;
+    }
+  }
+
   &__buy-button {
     display: flex;
     flex-direction: column;
@@ -56,5 +108,11 @@
 
   &__app-frame {
     display: none;
+  }
+}
+
+@keyframes border-animation {
+  100% {
+    transform: rotate(1turn);
   }
 }
