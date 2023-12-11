@@ -1,0 +1,15 @@
+@import '../../base/base';
+
+.questions {
+  margin-bottom: 80px;
+  &__title {
+    @extend %section-title;
+    margin-bottom: 38px;
+  }
+
+  &__accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}

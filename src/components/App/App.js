@@ -5,7 +5,8 @@ import About from '../About/About';
 import Minics from '../Minics/Minics';
 import Instagram from '../Instagram/Instagram';
 import videosData from '../../utils/videosData';
-import { socialsData } from '../../utils/constants';
+import { socialsData, questionsData } from '../../utils/constants';
+import Questions from '../Questions/Questions';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <About />
         <Minics videosData={videosData} socialsData={socialsData} />
         <Instagram socialsData={socialsData} />
+        <Questions questionsData={questionsData} />
       </Main>
     </div>
   );

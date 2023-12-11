@@ -1,0 +1,45 @@
+@import '../../base/base';
+
+.accordion {
+  border-bottom: 1px solid #777;
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__title {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: normal;
+    max-width: 325px;
+    margin: 0 0 16px;
+
+    color: $alternate-color;
+  }
+
+  &__marker {
+    align-self: flex-start;
+    display: block;
+    width: 22px;
+    height: 22px;
+    background-image: url('../../images/accordion_marker.svg');
+    background-size: contain;
+    transition: all 0.2s ease-in;
+
+    &_opened {
+      transform: rotate(90deg);
+    }
+  }
+
+  &__content {
+    overflow: hidden;
+    height: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+    color: $alternate-color;
+
+    transition: all 0.2s ease-in-out;
+  }
+}
