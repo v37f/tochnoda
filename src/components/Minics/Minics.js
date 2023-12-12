@@ -4,7 +4,7 @@ import Deeplink from '../Deeplink/Deeplink';
 
 function Minics({ videosData, socialsData }) {
   return (
-    <section className="minics">
+    <section className="minics" id="minics">
       <h2 className="minics__title">Миники</h2>
       <ul className="minics__list">
         <li className="minics__list-item">самая популярная тема</li>

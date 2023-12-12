@@ -2,7 +2,7 @@ import './About.scss';
 
 function About() {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <h2 className="about__title">Чемпионы мира по флористике</h2>
       <ul className="about__list">
         <li className="about__list-item">современные линейки букетов</li>

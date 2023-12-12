@@ -6,13 +6,13 @@ function Header() {
     <header className="header">
       <Logo />
       <nav className="header__navigation">
-        <a className="header__link" href="#">
+        <a className="header__link" href="#about">
           О нас
         </a>
-        <a className="header__link" href="#">
+        <a className="header__link" href="#minics">
           Миники
         </a>
-        <a className="header__link" href="#">
+        <a className="header__link" href="#reviews">
           Отзывы
         </a>
         <a className="header__link" href="#">

@@ -6,7 +6,7 @@ import ItemsCarousel from 'react-items-carousel';
 function Reviews({ reviewsData }) {
   const [activeItemIndex, setActiveItemIndex] = useState(0);
   return (
-    <section className="reviews">
+    <section className="reviews" id="reviews">
       <h2 className="reviews__title">Отзывы покупателей</h2>
       <div className="reviews__carousel">
         <ItemsCarousel
