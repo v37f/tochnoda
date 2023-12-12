@@ -5,9 +5,15 @@ import About from '../About/About';
 import Minics from '../Minics/Minics';
 import Instagram from '../Instagram/Instagram';
 import videosData from '../../utils/videosData';
-import { socialsData, questionsData, reviewsData } from '../../utils/constants';
+import {
+  socialsData,
+  questionsData,
+  reviewsData,
+  clientsData,
+} from '../../utils/constants';
 import Questions from '../Questions/Questions';
 import Reviews from '../Reviews/Reviews';
+import Clients from '../Clients/Clients';
 
 function App() {
   return (
@@ -19,6 +25,7 @@ function App() {
         <Instagram socialsData={socialsData} />
         <Questions questionsData={questionsData} />
         <Reviews reviewsData={reviewsData} />
+        <Clients clientsData={clientsData} />
       </Main>
     </div>
   );
