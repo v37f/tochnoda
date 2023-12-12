@@ -1,13 +1,13 @@
 @import '../../base/base';
 
 .reviews {
+  margin-bottom: 80px;
   &__title {
     @extend %section-title;
     margin: 0 0 14.5px;
   }
   &__list {
     list-style-type: none;
-    // padding: 8.5px 0;
     padding: 10px;
     display: flex;
 
