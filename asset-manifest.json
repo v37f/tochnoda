@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tochnoda/static/css/main.bd7be324.css",
+    "main.css": "/tochnoda/static/css/main.4325b9a1.css",
     "main.js": "/tochnoda/static/js/main.3447eeb2.js",
     "static/media/video_7.mp4": "/tochnoda/static/media/video_7.969e19958cc9f52148ef.mp4",
     "static/media/video_1_NY.mp4": "/tochnoda/static/media/video_1_NY.6f026c847b0cae344cc3.mp4",
@@ -37,11 +37,11 @@
     "static/media/accordion_marker.svg": "/tochnoda/static/media/accordion_marker.10d58ddff4959f23d125.svg",
     "static/media/review_star.svg": "/tochnoda/static/media/review_star.d386e23e8182cc7a36d7.svg",
     "static/media/play_icon.svg": "/tochnoda/static/media/play_icon.b178da9c0deaf9c747ae.svg",
-    "main.bd7be324.css.map": "/tochnoda/static/css/main.bd7be324.css.map",
+    "main.4325b9a1.css.map": "/tochnoda/static/css/main.4325b9a1.css.map",
     "main.3447eeb2.js.map": "/tochnoda/static/js/main.3447eeb2.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd7be324.css",
+    "static/css/main.4325b9a1.css",
     "static/js/main.3447eeb2.js"
   ]
 }
