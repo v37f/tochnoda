@@ -1,0 +1,17 @@
+@import '../../base/base';
+
+.reviews {
+  &__title {
+    @extend %section-title;
+    margin: 0 0 24.5px;
+  }
+  &__list {
+    list-style-type: none;
+    // padding: 8.5px 0;
+    padding: 10px;
+    display: flex;
+
+    gap: 20px;
+    overflow-x: scroll;
+  }
+}
