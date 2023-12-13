@@ -2,8 +2,11 @@
   display: block;
   width: 59px;
   height: 59px;
+  min-width: 44px;
+  min-height: 44px;
   background-image: url('../../images/tochnoda_logo.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  // flex-shrink: 0;
 }
