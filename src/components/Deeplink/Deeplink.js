@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import './Deeplink.scss';
+import { getMobileOperatingSystem } from '../../utils/utils';
 
 function Deeplink({ id, styleType = 'icon', socialsData, children = '' }) {
   const deeplinkRef = useRef(null);
@@ -49,22 +50,6 @@ function Deeplink({ id, styleType = 'icon', socialsData, children = '' }) {
         break;
     }
   }, [id, phone, message, telegram, instagram, facebook]);
-
-  const getMobileOperatingSystem = () => {
-    var userAgent = navigator.userAgent || window.opera;
-
-    // Windows Phone must come first because its UA also contains "Android"
-    if (/android/i.test(userAgent)) {
-      return 'android';
-    }
-
-    // iOS detection from: https://stackoverflow.com/a/9039885/177710
-    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-      return 'ios';
-    }
-
-    return 'desktop';
-  };
 
   const handleLinkClick = (e) => {
     e.preventDefault();

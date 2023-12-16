@@ -14,6 +14,7 @@ import {
 import Questions from '../Questions/Questions';
 import Reviews from '../Reviews/Reviews';
 import Clients from '../Clients/Clients';
+import Contacts from '../Contacts/Contacts';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Questions questionsData={questionsData} />
         <Reviews reviewsData={reviewsData} />
         <Clients clientsData={clientsData} />
+        <Contacts socialsData={socialsData} />
       </Main>
     </div>
   );

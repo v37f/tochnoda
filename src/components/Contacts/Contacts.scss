@@ -1,0 +1,92 @@
+@import '../../base/base';
+
+.contacts {
+  margin-bottom: 26px;
+
+  &__title {
+    @extend %section-title;
+    margin-bottom: 30px;
+  }
+
+  &__store-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    margin-bottom: 50px;
+  }
+
+  &__navigator-link {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+
+    color: #777;
+  }
+
+  &__address {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+
+    margin: 0;
+
+    color: $primary-color;
+  }
+
+  &__opening-hours {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+
+    margin: 0;
+
+    color: $alternate-color;
+  }
+
+  &__phone {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+
+    margin: 0;
+
+    color: $alternate-color;
+  }
+
+  &__path-heading {
+    display: flex;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-items: center;
+    margin: 0 0 8px;
+
+    color: #b04134;
+
+    &::before {
+      content: url('../../images/location__icon.svg');
+      width: 24px;
+      height: 24px;
+      margin-right: 12px;
+    }
+  }
+
+  &__path-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    max-width: 351px;
+    box-sizing: border-box;
+    padding-left: 25px;
+  }
+
+  &__path-list-item {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+
+    color: $alternate-color;
+  }
+}
