@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tochnoda/static/css/main.4325b9a1.css",
-    "main.js": "/tochnoda/static/js/main.10840c65.js",
+    "main.css": "/tochnoda/static/css/main.993fdfe5.css",
+    "main.js": "/tochnoda/static/js/main.a39edef8.js",
     "static/media/video_7.mp4": "/tochnoda/static/media/video_7.969e19958cc9f52148ef.mp4",
     "static/media/video_1_NY.mp4": "/tochnoda/static/media/video_1_NY.6f026c847b0cae344cc3.mp4",
     "static/media/video_5.mp4": "/tochnoda/static/media/video_5.5e5b669fc01fc1546359.mp4",
@@ -23,9 +23,9 @@
     "static/media/Raleway-Medium.ttf": "/tochnoda/static/media/Raleway-Medium.1a3483dd7a2052f30ede.ttf",
     "static/media/Raleway-Bold.ttf": "/tochnoda/static/media/Raleway-Bold.757abe402eb07a0ab739.ttf",
     "static/media/video_1_poster.png": "/tochnoda/static/media/video_1_poster.5890c0b6b87a9ca28cb7.png",
-    "static/media/tochnoda_logo.svg": "/tochnoda/static/media/tochnoda_logo.63e1b66059990d19b140.svg",
     "static/media/video_4_poster.png": "/tochnoda/static/media/video_4_poster.58732a3549a643010920.png",
     "static/media/TNT_logo.png": "/tochnoda/static/media/TNT_logo.06bd569f8ec693593898.png",
+    "static/media/tochnoda_logo.png": "/tochnoda/static/media/tochnoda_logo.5370b299ed58083a61a9.png",
     "static/media/PochtaBank_logo.png": "/tochnoda/static/media/PochtaBank_logo.f7121fc99ccebeabaaaf.png",
     "static/media/SMF_logo.png": "/tochnoda/static/media/SMF_logo.3045c613d26faa9db220.png",
     "static/media/whatsapp_icon.svg": "/tochnoda/static/media/whatsapp_icon.ee26147d017191a69fe4.svg",
@@ -33,15 +33,16 @@
     "static/media/telegram_icon.svg": "/tochnoda/static/media/telegram_icon.2af5c0a4c190a932b1e2.svg",
     "static/media/instagram_icon.svg": "/tochnoda/static/media/instagram_icon.de878e1f10873273019e.svg",
     "static/media/facebook_icon.svg": "/tochnoda/static/media/facebook_icon.af5283e73a1b1b023741.svg",
+    "static/media/location__icon.svg": "/tochnoda/static/media/location__icon.0ca7c9514dd3ec1a5d91.svg",
     "index.html": "/tochnoda/index.html",
     "static/media/accordion_marker.svg": "/tochnoda/static/media/accordion_marker.10d58ddff4959f23d125.svg",
     "static/media/review_star.svg": "/tochnoda/static/media/review_star.d386e23e8182cc7a36d7.svg",
     "static/media/play_icon.svg": "/tochnoda/static/media/play_icon.b178da9c0deaf9c747ae.svg",
-    "main.4325b9a1.css.map": "/tochnoda/static/css/main.4325b9a1.css.map",
-    "main.10840c65.js.map": "/tochnoda/static/js/main.10840c65.js.map"
+    "main.993fdfe5.css.map": "/tochnoda/static/css/main.993fdfe5.css.map",
+    "main.a39edef8.js.map": "/tochnoda/static/js/main.a39edef8.js.map"
   },
   "entrypoints": [
-    "static/css/main.4325b9a1.css",
-    "static/js/main.10840c65.js"
+    "static/css/main.993fdfe5.css",
+    "static/js/main.a39edef8.js"
   ]
 }
