@@ -15,7 +15,7 @@ function Header() {
         <a className="header__link" href="#reviews">
           Отзывы
         </a>
-        <a className="header__link" href="#">
+        <a className="header__link" href="#contacts">
           Контакты
         </a>
       </nav>

@@ -8,7 +8,7 @@ import {
 function Contacts({ socialsData }) {
   console.log(getMobileOperatingSystem());
   return (
-    <section className="contacts">
+    <section className="contacts" id="contacts">
       <h2 className="contacts__title">Контакты</h2>
       <div
         style={{
