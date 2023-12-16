@@ -15,6 +15,7 @@ import Questions from '../Questions/Questions';
 import Reviews from '../Reviews/Reviews';
 import Clients from '../Clients/Clients';
 import Contacts from '../Contacts/Contacts';
+import Footer from '../Footer/Footer';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Clients clientsData={clientsData} />
         <Contacts socialsData={socialsData} />
       </Main>
+      <Footer socialsData={socialsData} />
     </div>
   );
 }

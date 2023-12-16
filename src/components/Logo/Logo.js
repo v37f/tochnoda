@@ -1,7 +1,7 @@
 import './Logo.scss';
 
-function Logo() {
-  return <div className="logo"></div>;
+function Logo({ size }) {
+  return <div className={`logo logo_size_${size}`}></div>;
 }
 
 export default Logo;

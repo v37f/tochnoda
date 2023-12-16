@@ -4,7 +4,7 @@ import Logo from '../Logo/Logo';
 function Header() {
   return (
     <header className="header">
-      <Logo />
+      <Logo size="big" />
       <nav className="header__navigation">
         <a className="header__link" href="#about">
           О нас
