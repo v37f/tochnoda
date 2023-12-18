@@ -6,8 +6,8 @@ function VideoGrid({ videosData }) {
   const [videos, setVideos] = useState(videosData);
   const [videoJsOptions, setVideoJsOptions] = useState({
     autoplay: false,
-    height: 414,
-    width: 259,
+    preload: 'auto',
+    fill: true,
     controls: true,
     disablePictureInPicture: true,
     noUITitleAttributes: true,
