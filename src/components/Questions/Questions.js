@@ -6,8 +6,8 @@ function Questions({ questionsData }) {
     <section className="questions">
       <h2 className="questions__title">Вопросы - ответы</h2>
       <div className="questions__accordion">
-        {questionsData?.map(({ question, answer }) => (
-          <Accordion title={question} content={answer} />
+        {questionsData?.map(({ id, question, answer }) => (
+          <Accordion title={question} content={answer} key={id} />
         ))}
       </div>
     </section>
