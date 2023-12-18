@@ -10,22 +10,11 @@ function Contacts({ socialsData }) {
   return (
     <section className="contacts" id="contacts">
       <h2 className="contacts__title">Контакты</h2>
-      <div
-        style={{
-          position: 'relative',
-          overflow: 'hidden',
-          marginBottom: '50px',
-        }}
-      >
+      <div className="contacts__map">
         <iframe
+          className="contacts__map-frame"
           title="Местоположение магазина"
           src="https://yandex.ru/map-widget/v1/?indoorLevel=1&ll=37.637110%2C55.793227&mode=search&oid=32160377050&ol=biz&utm_campaign=desktop&utm_medium=search&utm_source=maps&z=17"
-          style={{
-            position: 'relative',
-            width: '100%',
-            height: '396px',
-            border: 'none',
-          }}
         ></iframe>
       </div>
       <div className="contacts__store-info">
