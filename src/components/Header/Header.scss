@@ -3,24 +3,34 @@
 .header {
   padding: 32px 0 10px 5px;
   display: flex;
-  gap: 30px;
+  justify-content: space-between;
   margin: 0 auto;
   max-width: 396px;
   box-sizing: border-box;
   width: calc(100% - (16px * 2));
 
   &__navigation {
+    max-width: 285px;
     display: flex;
-    gap: 24px;
+    flex-grow: 1;
+    justify-content: space-between;
     align-self: flex-end;
     margin-bottom: 8px;
+    padding: 0 5px 0 17px;
   }
 
   &__link {
+    text-wrap: nowrap;
     color: $primary-color;
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
     line-height: normal;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header__link {
+    font-size: 12px;
   }
 }
