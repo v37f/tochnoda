@@ -33,8 +33,8 @@ function Reviews({ reviewsData }) {
             itemWrapper: 'reviews__carousel-item',
           }}
         >
-          {reviewsData.map((data) => (
-            <Review data={data} />
+          {reviewsData.map((review) => (
+            <Review data={review} key={review.id} />
           ))}
         </ItemsCarousel>
       </div>
