@@ -20,8 +20,6 @@ function Contacts({ socialsData }) {
         <iframe
           title="Местоположение магазина"
           src="https://yandex.ru/map-widget/v1/?indoorLevel=1&ll=37.637110%2C55.793227&mode=search&oid=32160377050&ol=biz&utm_campaign=desktop&utm_medium=search&utm_source=maps&z=17"
-          frameborder="1"
-          allowfullscreen="true"
           style={{
             position: 'relative',
             width: '100%',
