@@ -14,6 +14,7 @@ function Contacts({ socialsData }) {
         <iframe
           className="contacts__map-frame"
           title="Местоположение магазина"
+          allow="geolocation"
           src="https://yandex.ru/map-widget/v1/?indoorLevel=1&ll=37.637110%2C55.793227&mode=search&oid=32160377050&ol=biz&utm_campaign=desktop&utm_medium=search&utm_source=maps&z=17"
         ></iframe>
       </div>
