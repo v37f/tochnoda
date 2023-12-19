@@ -3,7 +3,7 @@
 .instagram {
   background-image: url('../../images/instagram_background.png');
   background-position: bottom right;
-  background-size: 162px 261px;
+  background-size: 41%;
   background-repeat: no-repeat;
   padding: 16px 0 31px;
   margin-bottom: 80px;
@@ -23,7 +23,7 @@
   &__list-item {
     @extend %list-item;
     margin-bottom: 16px;
-    max-width: 231px;
+    max-width: 61.7%;
     color: #383c41;
     position: relative;
     &::before {
