@@ -18,37 +18,72 @@ import video_7_poster from '../images/video_7_poster.png';
 const videosData = [
   {
     id: 1,
-    src: video_1_NY,
+    sources: [
+      {
+        src: video_1_NY,
+        type: 'video/mp4',
+      },
+    ],
     poster: video_1_NY_poster,
   },
   {
     id: 2,
-    src: video_2,
+    sources: [
+      {
+        src: video_2,
+        type: 'video/mp4',
+      },
+    ],
     poster: video_2_poster,
   },
   {
     id: 3,
-    src: video_3,
+    sources: [
+      {
+        src: video_3,
+        type: 'video/mp4',
+      },
+    ],
     poster: video_3_poster,
   },
   {
     id: 4,
-    src: video_4,
+    sources: [
+      {
+        src: video_4,
+        type: 'video/mp4',
+      },
+    ],
     poster: video_4_poster,
   },
   {
     id: 5,
-    src: video_5,
+    sources: [
+      {
+        src: video_5,
+        type: 'video/mp4',
+      },
+    ],
     poster: video_5_poster,
   },
   {
     id: 6,
-    src: video_6,
+    sources: [
+      {
+        src: video_6,
+        type: 'video/mp4',
+      },
+    ],
     poster: video_6_poster,
   },
   {
     id: 7,
-    src: video_7,
+    sources: [
+      {
+        src: video_7,
+        type: 'video/mp4',
+      },
+    ],
     poster: video_7_poster,
   },
 ];

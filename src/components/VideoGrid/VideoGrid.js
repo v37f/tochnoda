@@ -12,24 +12,14 @@ function VideoGrid({ videosData }) {
     disablePictureInPicture: true,
     noUITitleAttributes: true,
     muted: true,
-    sources: [
-      {
-        src: videos[0].src,
-        type: 'video/mp4',
-      },
-    ],
+    sources: videos[0].sources,
   });
 
   const handlePreviewClick = (i) => {
     setVideoJsOptions({
       ...videoJsOptions,
       autoplay: true,
-      sources: [
-        {
-          src: videos[i].src,
-          type: 'video/mp4',
-        },
-      ],
+      sources: videos[i].sources,
     });
     const newVideos = [...videos];
     const temp = newVideos[0];
