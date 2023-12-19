@@ -28,6 +28,7 @@ export const VideoJS = (props) => {
       player.autoplay(options.autoplay);
       player.src(options.sources);
     }
+    player.playsinline(true);
     // Redefine tap handler to able play/pause by tap video on mobiles
     player.boundHandleTechTap_ = () => {
       if (player.paused()) {
