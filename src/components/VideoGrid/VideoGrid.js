@@ -13,6 +13,7 @@ function VideoGrid({ videosData }) {
     noUITitleAttributes: true,
     muted: true,
     sources: videos[0].sources,
+    videoPoster: videos[0].poster,
   });
 
   const handlePreviewClick = (i) => {
@@ -20,6 +21,7 @@ function VideoGrid({ videosData }) {
       ...videoJsOptions,
       autoplay: true,
       sources: videos[i].sources,
+      videoPoster: videos[i].poster,
     });
     const newVideos = [...videos];
     const temp = newVideos[0];

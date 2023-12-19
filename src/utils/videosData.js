@@ -19,14 +19,14 @@ import video_6_webm from '../videos/webm/video_6.webm';
 import video_7_webm from '../videos/webm/video_7.webm';
 
 // video posters
-import video_1_poster from '../images/video_1_poster.png';
-import video_1_NY_poster from '../images/video_1_NY_poster.png';
-import video_2_poster from '../images/video_2_poster.png';
-import video_3_poster from '../images/video_3_poster.png';
-import video_4_poster from '../images/video_4_poster.png';
-import video_5_poster from '../images/video_5_poster.png';
-import video_6_poster from '../images/video_6_poster.png';
-import video_7_poster from '../images/video_7_poster.png';
+import video_1_poster from '../images/video/posters/video_1_poster.png';
+import video_1_NY_poster from '../images/video/posters/video_1_NY_poster.png';
+import video_2_poster from '../images/video/posters/video_2_poster.png';
+import video_3_poster from '../images/video/posters/video_3_poster.png';
+import video_4_poster from '../images/video/posters/video_4_poster.png';
+import video_5_poster from '../images/video/posters/video_5_poster.png';
+import video_6_poster from '../images/video/posters/video_6_poster.png';
+import video_7_poster from '../images/video/posters/video_7_poster.png';
 
 const videosData = [
   {
