@@ -33,7 +33,7 @@
     font-size: 32px;
     font-weight: 700;
     line-height: 38px;
-    text-wrap: nowrap;
+    min-width: fit-content;
     margin: 0;
   }
 
@@ -44,7 +44,7 @@
     line-height: 16px;
     text-decoration: line-through;
     padding-top: 22px;
-    text-wrap: nowrap;
+    min-width: fit-content;
     margin: 0;
   }
 
@@ -70,5 +70,17 @@
     font-size: 16px;
     font-weight: 700;
     line-height: normal;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .minics {
+    &__sale-price {
+      font-size: 27.5px;
+    }
+
+    &__full-price {
+      font-size: 12px;
+    }
   }
 }
