@@ -1,11 +1,24 @@
-import video_1 from '../videos/video_1.mp4';
-import video_1_NY from '../videos/video_1_NY.mp4';
-import video_2 from '../videos/video_2.mp4';
-import video_3 from '../videos/video_3.mp4';
-import video_4 from '../videos/video_4.mp4';
-import video_5 from '../videos/video_5.mp4';
-import video_6 from '../videos/video_6.mp4';
-import video_7 from '../videos/video_7.mp4';
+// mp4 videos
+import video_1_mp4 from '../videos/mp4/video_1.mp4';
+import video_1_NY_mp4 from '../videos/mp4/video_1_NY.mp4';
+import video_2_mp4 from '../videos/mp4/video_2.mp4';
+import video_3_mp4 from '../videos/mp4/video_3.mp4';
+import video_4_mp4 from '../videos/mp4/video_4.mp4';
+import video_5_mp4 from '../videos/mp4/video_5.mp4';
+import video_6_mp4 from '../videos/mp4/video_6.mp4';
+import video_7_mp4 from '../videos/mp4/video_7.mp4';
+
+// webm videos
+import video_1_webm from '../videos/webm/video_1.webm';
+import video_1_NY_webm from '../videos/webm/video_1_NY.webm';
+import video_2_webm from '../videos/webm/video_2.webm';
+import video_3_webm from '../videos/webm/video_3.webm';
+import video_4_webm from '../videos/webm/video_4.webm';
+import video_5_webm from '../videos/webm/video_5.webm';
+import video_6_webm from '../videos/webm/video_6.webm';
+import video_7_webm from '../videos/webm/video_7.webm';
+
+// video posters
 import video_1_poster from '../images/video_1_poster.png';
 import video_1_NY_poster from '../images/video_1_NY_poster.png';
 import video_2_poster from '../images/video_2_poster.png';
@@ -20,7 +33,11 @@ const videosData = [
     id: 1,
     sources: [
       {
-        src: video_1_NY,
+        src: video_1_NY_webm,
+        type: 'video/webm',
+      },
+      {
+        src: video_1_NY_mp4,
         type: 'video/mp4',
       },
     ],
@@ -30,7 +47,11 @@ const videosData = [
     id: 2,
     sources: [
       {
-        src: video_2,
+        src: video_2_webm,
+        type: 'video/webm',
+      },
+      {
+        src: video_2_mp4,
         type: 'video/mp4',
       },
     ],
@@ -40,7 +61,11 @@ const videosData = [
     id: 3,
     sources: [
       {
-        src: video_3,
+        src: video_3_webm,
+        type: 'video/webm',
+      },
+      {
+        src: video_3_mp4,
         type: 'video/mp4',
       },
     ],
@@ -50,7 +75,11 @@ const videosData = [
     id: 4,
     sources: [
       {
-        src: video_4,
+        src: video_4_webm,
+        type: 'video/webm',
+      },
+      {
+        src: video_4_mp4,
         type: 'video/mp4',
       },
     ],
@@ -60,7 +89,11 @@ const videosData = [
     id: 5,
     sources: [
       {
-        src: video_5,
+        src: video_5_webm,
+        type: 'video/webm',
+      },
+      {
+        src: video_5_mp4,
         type: 'video/mp4',
       },
     ],
@@ -70,7 +103,11 @@ const videosData = [
     id: 6,
     sources: [
       {
-        src: video_6,
+        src: video_6_webm,
+        type: 'video/webm',
+      },
+      {
+        src: video_6_mp4,
         type: 'video/mp4',
       },
     ],
@@ -80,7 +117,11 @@ const videosData = [
     id: 7,
     sources: [
       {
-        src: video_7,
+        src: video_7_webm,
+        type: 'video/webm',
+      },
+      {
+        src: video_7_mp4,
         type: 'video/mp4',
       },
     ],
