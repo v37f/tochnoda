@@ -1,6 +1,7 @@
 @import '../../base/base';
 
 .reviews {
+  padding-top: 20px;
   margin-bottom: 80px;
   &__title {
     @extend %section-title;

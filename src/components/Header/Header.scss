@@ -1,7 +1,7 @@
 @import '../../base/variables';
 
 .header {
-  padding: 32px 0 10px 5px;
+  padding: 20px 0 20px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -16,7 +16,7 @@
     justify-content: space-between;
     align-self: flex-end;
     margin-bottom: 8px;
-    padding: 0 5px 0 17px;
+    padding: 0 5px 0 0;
   }
 
   &__link {
@@ -30,7 +30,13 @@
 }
 
 @media screen and (max-width: 425px) {
-  .header__link {
-    font-size: 12px;
+  .header {
+    &__navigation {
+      padding: 0 5px 0 5px;
+    }
+
+    &__link {
+      font-size: 14px;
+    }
   }
 }

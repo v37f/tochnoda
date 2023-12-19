@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  padding-bottom: 82px;
+  padding: 20px 0 82px;
   &__title {
     @extend %section-title;
     margin-bottom: 12px;

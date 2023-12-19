@@ -1,7 +1,7 @@
 @import '../../base/base';
 
 .about {
-  padding-bottom: 40px;
+  padding: 20px 0 20px;
   &__title {
     @extend %section-title;
     margin-bottom: 12px;
