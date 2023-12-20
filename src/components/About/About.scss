@@ -9,8 +9,9 @@
   &__list {
     margin: 0;
     padding-left: 24px;
-  }
-  &__list-item {
-    @extend %list-item;
+
+    &-item {
+      @extend %list-item;
+    }
   }
 }

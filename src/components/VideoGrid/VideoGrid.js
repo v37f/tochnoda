@@ -44,7 +44,7 @@ function VideoGrid({ videosData }) {
           onClick={() => handlePreviewClick(i + 1)}
         >
           <img
-            className="video-grid__preview"
+            className="video-grid__thumbnail"
             src={video.poster}
             alt="video poster"
           />

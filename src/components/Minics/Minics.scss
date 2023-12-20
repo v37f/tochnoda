@@ -6,6 +6,7 @@
   align-items: center;
   width: 100%;
   padding: 20px 0 82px;
+
   &__title {
     @extend %section-title;
     margin-bottom: 12px;
@@ -16,70 +17,46 @@
     margin: 0 0 40px;
     padding-left: 24px;
     align-self: flex-start;
-  }
 
-  &__list-item {
-    @extend %list-item;
+    &-item {
+      @extend %list-item;
+    }
   }
 
   &__buy {
     display: flex;
     align-items: flex-start;
     align-self: stretch;
-  }
 
-  &__sale-price {
-    color: $secondary-color;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 38px;
-    min-width: fit-content;
-    margin: 0;
-  }
+    &-sale-price {
+      color: $secondary-color;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 38px;
+      min-width: fit-content;
+      margin: 0;
+    }
 
-  &__full-price {
-    color: #777;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 16px;
-    text-decoration: line-through;
-    padding-top: 22px;
-    min-width: fit-content;
-    margin: 0;
-  }
-
-  &__button {
-    cursor: pointer;
-    margin: 0 0 0 auto;
-    width: 200px;
-    height: 42px;
-    border: none;
-    border-radius: 16px;
-    background-color: $secondary-color;
-    transition: all 0.2s;
-  }
-
-  &__button:active {
-    transform: scale(0.95);
-  }
-
-  &__button-text {
-    color: #fff;
-
-    text-align: center;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: normal;
+    &-full-price {
+      color: #777;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 16px;
+      text-decoration: line-through;
+      padding-top: 22px;
+      min-width: fit-content;
+      margin: 0;
+    }
   }
 }
 
 @media screen and (max-width: 425px) {
-  .minics {
-    &__sale-price {
+  .minics__buy {
+    &-sale-price {
       font-size: 27.5px;
     }
 
-    &__full-price {
+    &-full-price {
       font-size: 12px;
     }
   }

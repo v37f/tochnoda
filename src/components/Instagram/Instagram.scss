@@ -7,6 +7,7 @@
   background-repeat: no-repeat;
   padding: 16px 0 31px;
   margin-bottom: 80px;
+
   &__title {
     @extend %section-title;
     margin-bottom: 50px;
@@ -18,26 +19,28 @@
     margin: 0;
     align-self: flex-start;
     list-style-type: none;
-  }
 
-  &__list-item {
-    @extend %list-item;
-    margin-bottom: 16px;
-    max-width: 61.7%;
-    color: #383c41;
-    position: relative;
-    &::before {
-      content: '\2022';
-      font-size: 28px;
-      line-height: 28px;
-      position: absolute;
-      top: calc(50% - 16px); // половина list-item минус половина высоты текста
-      left: -21.5px;
-      color: $secondary-color;
+    &-item {
+      @extend %list-item;
+      margin-bottom: 16px;
+      max-width: 61.7%;
+      color: #383c41;
+      position: relative;
+      &::before {
+        content: '\2022';
+        font-size: 28px;
+        line-height: 28px;
+        position: absolute;
+        top: calc(
+          50% - 16px
+        ); // половина list-item минус половина высоты текста
+        left: -21.5px;
+        color: $secondary-color;
+      }
+
+      &:last-of-type {
+        margin: 0;
+      }
     }
-  }
-
-  &__list-item:last-of-type {
-    margin: 0;
   }
 }

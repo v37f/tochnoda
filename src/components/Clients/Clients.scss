@@ -27,15 +27,15 @@
       width: 0;
       height: 0;
     }
-  }
 
-  &__list-item {
-    width: 125px;
-    height: 83px;
+    &-item {
+      width: 125px;
+      height: 83px;
 
-    scroll-snap-align: center;
-    scroll-snap-stop: always;
-    object-fit: contain;
-    object-position: center center;
+      scroll-snap-align: center;
+      scroll-snap-stop: always;
+      object-fit: contain;
+      object-position: center center;
+    }
   }
 }

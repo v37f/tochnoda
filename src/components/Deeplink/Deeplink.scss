@@ -1,5 +1,11 @@
 @import '../../base/base';
 
+@keyframes border-animation {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
 .deeplink {
   text-decoration: none;
 
@@ -109,11 +115,5 @@
 
   &__app-frame {
     display: none;
-  }
-}
-
-@keyframes border-animation {
-  100% {
-    transform: rotate(1turn);
   }
 }

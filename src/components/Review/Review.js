@@ -4,7 +4,7 @@ function Review({ data }) {
   const getStarElements = (stars) => {
     let starElements = [];
     for (let i = 0; i < stars; i++) {
-      starElements.push(<li className="review__star" key={i} />);
+      starElements.push(<li className="review__info-stars-element" key={i} />);
     }
     return starElements;
   };
@@ -16,8 +16,8 @@ function Review({ data }) {
         <h3 className="review__user-name">{data.user.name}</h3>
       </div>
       <div className="review__info">
-        <ul className="review__stars">{getStarElements(data.stars)}</ul>
-        <p className="review__date">{data.date}</p>
+        <ul className="review__info-stars">{getStarElements(data.stars)}</ul>
+        <p className="review__info-date">{data.date}</p>
       </div>
       <p className="review__text">{data.text}</p>
     </li>

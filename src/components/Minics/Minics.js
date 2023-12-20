@@ -18,8 +18,8 @@ function Minics({ videosData, socialsData }) {
       </ul>
       <VideoGrid videosData={videosData} />
       <div className="minics__buy">
-        <p className="minics__sale-price">2500 &#8381;</p>
-        <p className="minics__full-price">3500 &#8381;</p>
+        <p className="minics__buy-sale-price">2500 &#8381;</p>
+        <p className="minics__buy-full-price">3500 &#8381;</p>
         <Deeplink
           id="whatsapp"
           styleType="buy-button"
