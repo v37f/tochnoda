@@ -21,7 +21,7 @@
     }
     &:not(.video-grid__item_position_item-1):before {
       content: '';
-      background-image: url('../../images//play_icon.svg');
+      background-image: url('../../images/icons/play_icon.svg');
       position: absolute;
       top: calc(50% - 12.5px);
       left: calc(50% - 12.5px);
