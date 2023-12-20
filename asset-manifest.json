@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tochnoda/static/css/main.1caa5adb.css",
-    "main.js": "/tochnoda/static/js/main.7e5d47ec.js",
+    "main.css": "/tochnoda/static/css/main.f41a2396.css",
+    "main.js": "/tochnoda/static/js/main.267ddc1f.js",
     "static/media/video_7.mp4": "/tochnoda/static/media/video_7.8edb96e744e265e669f7.mp4",
     "static/media/video_1_NY.mp4": "/tochnoda/static/media/video_1_NY.cfdd6450a9caaea9ad50.mp4",
     "static/media/video_5.mp4": "/tochnoda/static/media/video_5.3ba5eb52e8d18f311ae7.mp4",
@@ -12,14 +12,11 @@
     "static/media/video_4.webm": "/tochnoda/static/media/video_4.335df3c8538b1a2bc956.webm",
     "static/media/video_2.webm": "/tochnoda/static/media/video_2.a1b920d3da43f256b303.webm",
     "static/media/video_6.mp4": "/tochnoda/static/media/video_6.3c0909fe7a59502f03a8.mp4",
-    "static/media/video_1.mp4": "/tochnoda/static/media/video_1.2e86f695f02a4ae7861d.mp4",
     "static/media/video_7.webm": "/tochnoda/static/media/video_7.3b55bd3346984e4a47a8.webm",
     "static/media/video_5.webm": "/tochnoda/static/media/video_5.879cc7d0e482a7ae98a1.webm",
     "static/media/video_6.webm": "/tochnoda/static/media/video_6.42a0143a634b37be2d86.webm",
-    "static/media/video_1.webm": "/tochnoda/static/media/video_1.269891522338aca7ed09.webm",
     "static/media/video_3.webm": "/tochnoda/static/media/video_3.6f0482a6a01d94aaa640.webm",
     "static/media/video_1_NY_poster.png": "/tochnoda/static/media/video_1_NY_poster.61a5ce5ff9803b69d79c.png",
-    "static/media/video_1_poster.png": "/tochnoda/static/media/video_1_poster.8ab1d696e4b5d46db8d1.png",
     "static/media/video_6_poster.png": "/tochnoda/static/media/video_6_poster.7268c7e219221f371fc9.png",
     "static/media/video_7_poster.png": "/tochnoda/static/media/video_7_poster.75e6d3695937c8a9528c.png",
     "static/media/video_3_poster.png": "/tochnoda/static/media/video_3_poster.49f0e570477377caec49.png",
@@ -46,11 +43,11 @@
     "static/media/accordion_marker.svg": "/tochnoda/static/media/accordion_marker.10d58ddff4959f23d125.svg",
     "static/media/review_star.svg": "/tochnoda/static/media/review_star.d386e23e8182cc7a36d7.svg",
     "static/media/play_icon.svg": "/tochnoda/static/media/play_icon.b178da9c0deaf9c747ae.svg",
-    "main.1caa5adb.css.map": "/tochnoda/static/css/main.1caa5adb.css.map",
-    "main.7e5d47ec.js.map": "/tochnoda/static/js/main.7e5d47ec.js.map"
+    "main.f41a2396.css.map": "/tochnoda/static/css/main.f41a2396.css.map",
+    "main.267ddc1f.js.map": "/tochnoda/static/js/main.267ddc1f.js.map"
   },
   "entrypoints": [
-    "static/css/main.1caa5adb.css",
-    "static/js/main.7e5d47ec.js"
+    "static/css/main.f41a2396.css",
+    "static/js/main.267ddc1f.js"
   ]
 }
