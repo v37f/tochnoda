@@ -19,7 +19,7 @@ function Deeplink({ id, styleType = 'icon', socialsData, children = '' }) {
         setAttributes((attributes) => ({
           ...attributes,
           androidApk: `intent://resolve?domain=${telegram}#Intent;package=org.telegram.messenger;scheme=tg;end`,
-          apk: `tg://resolve?domain=${telegram}`,
+          apk: `https://t.me/${telegram}`,
           href: `https://web.telegram.org/k/#@${telegram}`,
         }));
         break;
@@ -44,7 +44,7 @@ function Deeplink({ id, styleType = 'icon', socialsData, children = '' }) {
         setAttributes((attributes) => ({
           ...attributes,
           androidApk: `intent://send?phone=${phone}&text=${message}#Intent;package=com.whatsapp;scheme=whatsapp;end`,
-          apk: `whatsapp://send?phone=${phone}`,
+          apk: `https://wa.me/${phone}?text=${encodeURI(message)}`,
           href: `https://web.whatsapp.com/send?phone=${phone}&text=${message}&source=&data=`,
         }));
         break;
@@ -64,14 +64,12 @@ function Deeplink({ id, styleType = 'icon', socialsData, children = '' }) {
         appframeRef.current.setAttribute('src', android_apk_url);
         break;
       case 'ios':
-        appframeRef.current.setAttribute('src', apk_url);
-        console.log(appframeRef.current);
+        window.location = apk_url;
         break;
       default:
         window.open(siteUrl, '_blank', 'noopener,noreferrer');
         break;
     }
-    console.log(appframeRef.current.getAttribute('src'));
   };
 
   return (
