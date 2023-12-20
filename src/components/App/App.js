@@ -4,13 +4,13 @@ import Main from '../Main/Main';
 import About from '../About/About';
 import Minics from '../Minics/Minics';
 import Instagram from '../Instagram/Instagram';
-import videosData from '../../utils/videosData';
 import {
+  videosData,
   socialsData,
   questionsData,
   reviewsData,
   clientsData,
-} from '../../utils/constants';
+} from '../../utils/componentsData';
 import Questions from '../Questions/Questions';
 import Reviews from '../Reviews/Reviews';
 import Clients from '../Clients/Clients';
