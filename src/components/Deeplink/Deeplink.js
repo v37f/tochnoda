@@ -27,7 +27,7 @@ function Deeplink({ id, styleType = 'icon', socialsData, children = '' }) {
         setAttributes((attributes) => ({
           ...attributes,
           androidApk: `intent://profile/${facebook}#Intent;package=com.facebook.katana;scheme=fb;end`,
-          apk: `fb://profile/${facebook}`,
+          apk: `https://www.facebook.com/${facebook}`,
           href: `https://www.facebook.com/${facebook}`,
         }));
         break;
@@ -35,7 +35,7 @@ function Deeplink({ id, styleType = 'icon', socialsData, children = '' }) {
         setAttributes((attributes) => ({
           ...attributes,
           androidApk: `intent://instagram.com/_u/${instagram}/#Intent;package=com.instagram.android;scheme=https;end`,
-          apk: `instagram://${instagram}`,
+          apk: `https://www.instagram.com/${instagram}`,
           href: `https://www.instagram.com/${instagram}`,
         }));
         break;
