@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tochnoda/static/css/main.fb164eba.css",
-    "main.js": "/tochnoda/static/js/main.267ddc1f.js",
+    "main.css": "/tochnoda/static/css/main.16a4ccd3.css",
+    "main.js": "/tochnoda/static/js/main.c7886a57.js",
     "static/media/video_7.mp4": "/tochnoda/static/media/video_7.8edb96e744e265e669f7.mp4",
     "static/media/video_1_NY.mp4": "/tochnoda/static/media/video_1_NY.cfdd6450a9caaea9ad50.mp4",
     "static/media/video_5.mp4": "/tochnoda/static/media/video_5.3ba5eb52e8d18f311ae7.mp4",
@@ -43,11 +43,11 @@
     "static/media/accordion_marker.svg": "/tochnoda/static/media/accordion_marker.10d58ddff4959f23d125.svg",
     "static/media/review_star.svg": "/tochnoda/static/media/review_star.d386e23e8182cc7a36d7.svg",
     "static/media/play_icon.svg": "/tochnoda/static/media/play_icon.b178da9c0deaf9c747ae.svg",
-    "main.fb164eba.css.map": "/tochnoda/static/css/main.fb164eba.css.map",
-    "main.267ddc1f.js.map": "/tochnoda/static/js/main.267ddc1f.js.map"
+    "main.16a4ccd3.css.map": "/tochnoda/static/css/main.16a4ccd3.css.map",
+    "main.c7886a57.js.map": "/tochnoda/static/js/main.c7886a57.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb164eba.css",
-    "static/js/main.267ddc1f.js"
+    "static/css/main.16a4ccd3.css",
+    "static/js/main.c7886a57.js"
   ]
 }
