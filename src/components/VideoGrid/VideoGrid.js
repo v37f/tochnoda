@@ -33,23 +33,27 @@ function VideoGrid({ videosData }) {
 
   return (
     <div className="video-grid">
-      <div className="video-grid__item video-grid__item_position_item-1">
-        <VideoJS options={videoJsOptions} />
-      </div>
-
-      {videos.slice(1).map((video, i) => (
-        <div
-          className={`video-grid__item video-grid__item_position_item-${i + 2}`}
-          key={video.id}
-          onClick={() => handlePreviewClick(i + 1)}
-        >
-          <img
-            className="video-grid__thumbnail"
-            src={video.poster}
-            alt="video poster"
-          />
+      <div className="video-grid__container">
+        <div className="video-grid__item video-grid__item_position_item-1">
+          <VideoJS options={videoJsOptions} />
         </div>
-      ))}
+
+        {videos.slice(1).map((video, i) => (
+          <div
+            className={`video-grid__item video-grid__item_position_item-${
+              i + 2
+            }`}
+            key={video.id}
+            onClick={() => handlePreviewClick(i + 1)}
+          >
+            <img
+              className="video-grid__thumbnail"
+              src={video.poster}
+              alt="video poster"
+            />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
