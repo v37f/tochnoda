@@ -10,18 +10,4 @@
     justify-content: space-between;
     align-items: center;
   }
-
-  &__links {
-    width: 136px;
-    display: flex;
-    justify-content: space-between;
-
-    &:first-of-type {
-      margin-right: 15px;
-    }
-
-    &:last-of-type {
-      margin-left: 15px;
-    }
-  }
 }
