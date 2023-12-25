@@ -25,6 +25,17 @@
       font-size: 14px;
       font-weight: 700;
       line-height: normal;
+      position: relative;
+
+      // с помощью псевдоэлемента увеличим зону кликабельности ссылки
+      &::before {
+        content: '';
+        position: absolute;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 300%;
+      }
     }
   }
 }
