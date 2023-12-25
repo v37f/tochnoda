@@ -1,12 +1,16 @@
 .footer {
   width: 100%;
+  position: sticky;
+  bottom: 0;
+  background-color: inherit;
 
   &__container {
+    max-width: 396px;
     margin: 0 auto;
     width: calc(100% - (16px * 2));
     box-sizing: border-box;
     display: flex;
-    padding: 0 8px 25px;
+    padding: 10px 8px;
     justify-content: space-between;
     align-items: center;
   }
