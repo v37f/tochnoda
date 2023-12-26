@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tochnoda/static/css/main.147cf0c7.css",
-    "main.js": "/tochnoda/static/js/main.5e7251e1.js",
+    "main.js": "/tochnoda/static/js/main.b4641368.js",
     "static/media/video_7.mp4": "/tochnoda/static/media/video_7.8edb96e744e265e669f7.mp4",
     "static/media/video_1_NY.mp4": "/tochnoda/static/media/video_1_NY.cfdd6450a9caaea9ad50.mp4",
     "static/media/video_5.mp4": "/tochnoda/static/media/video_5.3ba5eb52e8d18f311ae7.mp4",
@@ -19,6 +19,7 @@
     "static/media/video_1_NY_poster.png": "/tochnoda/static/media/video_1_NY_poster.61a5ce5ff9803b69d79c.png",
     "static/media/video_6_poster.png": "/tochnoda/static/media/video_6_poster.7268c7e219221f371fc9.png",
     "static/media/video_7_poster.png": "/tochnoda/static/media/video_7_poster.75e6d3695937c8a9528c.png",
+    "static/media/user_avatar_3.png": "/tochnoda/static/media/user_avatar_3.291a8c3c739800ce1712.png",
     "static/media/video_3_poster.png": "/tochnoda/static/media/video_3_poster.49f0e570477377caec49.png",
     "static/media/instagram_background.png": "/tochnoda/static/media/instagram_background.38423f28b8adac9d9db2.png",
     "static/media/video_5_poster.png": "/tochnoda/static/media/video_5_poster.eaa1cfb9dfeef934f3c3.png",
@@ -44,10 +45,10 @@
     "static/media/review_star.svg": "/tochnoda/static/media/review_star.d386e23e8182cc7a36d7.svg",
     "static/media/play_icon.svg": "/tochnoda/static/media/play_icon.b178da9c0deaf9c747ae.svg",
     "main.147cf0c7.css.map": "/tochnoda/static/css/main.147cf0c7.css.map",
-    "main.5e7251e1.js.map": "/tochnoda/static/js/main.5e7251e1.js.map"
+    "main.b4641368.js.map": "/tochnoda/static/js/main.b4641368.js.map"
   },
   "entrypoints": [
     "static/css/main.147cf0c7.css",
-    "static/js/main.5e7251e1.js"
+    "static/js/main.b4641368.js"
   ]
 }
