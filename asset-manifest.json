@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tochnoda/static/css/main.57077772.css",
-    "main.js": "/tochnoda/static/js/main.9454e4d8.js",
+    "main.css": "/tochnoda/static/css/main.b8407255.css",
+    "main.js": "/tochnoda/static/js/main.62ac1467.js",
     "static/media/video_7.mp4": "/tochnoda/static/media/video_7.8edb96e744e265e669f7.mp4",
     "static/media/video_1_NY.mp4": "/tochnoda/static/media/video_1_NY.cfdd6450a9caaea9ad50.mp4",
     "static/media/video_5.mp4": "/tochnoda/static/media/video_5.3ba5eb52e8d18f311ae7.mp4",
@@ -34,21 +34,21 @@
     "static/media/tochnoda_logo.png": "/tochnoda/static/media/tochnoda_logo.5370b299ed58083a61a9.png",
     "static/media/PochtaBank_logo.png": "/tochnoda/static/media/PochtaBank_logo.f7121fc99ccebeabaaaf.png",
     "static/media/SMF_logo.png": "/tochnoda/static/media/SMF_logo.3045c613d26faa9db220.png",
+    "static/media/vk_icon.svg": "/tochnoda/static/media/vk_icon.1f6d643a9c77cc9d9e15.svg",
     "static/media/whatsapp_icon.svg": "/tochnoda/static/media/whatsapp_icon.ee26147d017191a69fe4.svg",
     "static/media/new_marker.svg": "/tochnoda/static/media/new_marker.12921b2f3f55ae3e1922.svg",
     "static/media/telegram_icon.svg": "/tochnoda/static/media/telegram_icon.2af5c0a4c190a932b1e2.svg",
     "static/media/instagram_icon.svg": "/tochnoda/static/media/instagram_icon.de878e1f10873273019e.svg",
     "index.html": "/tochnoda/index.html",
-    "static/media/facebook_icon.svg": "/tochnoda/static/media/facebook_icon.af5283e73a1b1b023741.svg",
     "static/media/location__icon.svg": "/tochnoda/static/media/location__icon.0ca7c9514dd3ec1a5d91.svg",
     "static/media/accordion_marker.svg": "/tochnoda/static/media/accordion_marker.10d58ddff4959f23d125.svg",
     "static/media/review_star.svg": "/tochnoda/static/media/review_star.d386e23e8182cc7a36d7.svg",
     "static/media/play_icon.svg": "/tochnoda/static/media/play_icon.b178da9c0deaf9c747ae.svg",
-    "main.57077772.css.map": "/tochnoda/static/css/main.57077772.css.map",
-    "main.9454e4d8.js.map": "/tochnoda/static/js/main.9454e4d8.js.map"
+    "main.b8407255.css.map": "/tochnoda/static/css/main.b8407255.css.map",
+    "main.62ac1467.js.map": "/tochnoda/static/js/main.62ac1467.js.map"
   },
   "entrypoints": [
-    "static/css/main.57077772.css",
-    "static/js/main.9454e4d8.js"
+    "static/css/main.b8407255.css",
+    "static/js/main.62ac1467.js"
   ]
 }
