@@ -23,12 +23,12 @@ function Deeplink({ id, styleType = 'icon', socialsData, children = '' }) {
           href: `https://web.telegram.org/k/#@${telegram}`,
         }));
         break;
-      case 'facebook':
+      case 'vk':
         setAttributes((attributes) => ({
           ...attributes,
-          androidApk: `intent://profile/${facebook}#Intent;package=com.facebook.katana;scheme=fb;end`,
-          apk: `https://www.facebook.com/${facebook}`,
-          href: `https://www.facebook.com/${facebook}`,
+          androidApk: `vk://vk.com/tochnodastru`,
+          apk: `vk://vk.com/tochnodastru`,
+          href: `https://www./vk.com/tochnodastru`,
         }));
         break;
       case 'instagram':

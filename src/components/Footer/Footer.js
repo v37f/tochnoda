@@ -7,7 +7,7 @@ function Footer({ socialsData }) {
     <footer className="footer">
       <div className="footer__container">
         <Deeplink id="telegram" styleType="icon" socialsData={socialsData} />
-        <Deeplink id="facebook" styleType="icon" socialsData={socialsData} />
+        <Deeplink id="vk" styleType="icon" socialsData={socialsData} />
         <a className="footer__logo-link" href="#app">
           <Logo size="small" />
         </a>
