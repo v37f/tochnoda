@@ -23,14 +23,13 @@
       border: none;
       background-color: transparent;
       display: flex;
-      justify-content: center;
-      padding-top: 3px;
+      padding: 3px 0 0 0;
       font-size: 25px;
       line-height: 20px;
 
       &_type_right {
         margin: 0 0 0 auto;
-
+        justify-content: flex-end;
         &::before {
           content: '>';
         }
