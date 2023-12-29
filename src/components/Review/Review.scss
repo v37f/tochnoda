@@ -3,14 +3,12 @@
 .review {
   flex-shrink: 0;
   background-color: #f6f6f6;
-  padding: 24px 16px 26px 18px;
+  padding: 24px 25px 26px 27;
   display: flex;
   flex-direction: column;
   gap: 16px;
-  max-width: 308px;
-  width: calc(100% - (10px * 2));
+  width: 100%;
   box-sizing: border-box;
-  margin: 0 10px;
   min-height: 184px;
 
   &__user {
