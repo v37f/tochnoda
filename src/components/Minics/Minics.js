@@ -21,7 +21,7 @@ function Minics({ videosData, socialsData }) {
         <p className="minics__buy-sale-price">2500 &#8381;</p>
         <p className="minics__buy-full-price">3500 &#8381;</p>
         <Deeplink
-          id="whatsapp"
+          appName="whatsapp"
           styleType="buy-button"
           socialsData={socialsData}
         />

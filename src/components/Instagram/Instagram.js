@@ -11,7 +11,7 @@ function Instagram({ socialsData }) {
         <li className="instagram__list-item">
           в нашем Instagram
           <Deeplink
-            id="instagram"
+            appName="instagram"
             styleType="animated-button"
             socialsData={socialsData}
           >

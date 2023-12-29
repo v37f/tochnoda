@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import './Deeplink.scss';
 import { getMobileOperatingSystem } from '../../utils/utils';
 
-function Deeplink({ id, styleType = 'icon', socialsData, children = '' }) {
+function Deeplink({ appName, styleType = 'icon', socialsData, children = '' }) {
   const deeplinkRef = useRef(null);
   const appframeRef = useRef(null);
 
@@ -14,7 +14,7 @@ function Deeplink({ id, styleType = 'icon', socialsData, children = '' }) {
   });
 
   useEffect(() => {
-    switch (id) {
+    switch (appName) {
       case 'telegram':
         setAttributes((attributes) => ({
           ...attributes,
@@ -49,7 +49,7 @@ function Deeplink({ id, styleType = 'icon', socialsData, children = '' }) {
         }));
         break;
     }
-  }, [id, phone, message, telegram, instagram, facebook]);
+  }, [appName, phone, message, telegram, instagram, facebook]);
 
   const handleLinkClick = (e) => {
     e.preventDefault();
@@ -75,7 +75,7 @@ function Deeplink({ id, styleType = 'icon', socialsData, children = '' }) {
   return (
     <a
       className="deeplink"
-      id={id}
+      appName={appName}
       android-apk={attributes.androidApk}
       apk={attributes.apk}
       href={attributes.href}
@@ -83,11 +83,11 @@ function Deeplink({ id, styleType = 'icon', socialsData, children = '' }) {
       target="_blanc"
       rel="noreferrer"
       ref={deeplinkRef}
-      aria-label={`Перейти в ${id}`}
+      aria-label={`Перейти в ${appName}`}
     >
       {styleType === 'icon' ? (
         <div
-          className={`deeplink__icon deeplink__icon_type_${id}`}
+          className={`deeplink__icon deeplink__icon_type_${appName}`}
           aria-hidden="true"
         ></div>
       ) : (
