@@ -1,6 +1,7 @@
 import './About.scss';
+import VideoGrid from '../VideoGrid/VideoGrid';
 
-function About() {
+function About({ videosData }) {
   return (
     <section className="about" id="about">
       <h1 className="about__title">Чемпионы мира по флористике</h1>
@@ -9,6 +10,7 @@ function About() {
         <li className="about__list-item">сделаем в течение часа</li>
         <li className="about__list-item">доставим быстро и бесплатно</li>
       </ul>
+      <VideoGrid videosData={videosData} />
     </section>
   );
 }

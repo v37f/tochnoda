@@ -22,8 +22,8 @@ function App() {
     <div className="App" id="app">
       <Header />
       <Main>
-        <About />
-        <Minics videosData={videosData} socialsData={socialsData} />
+        <About videosData={videosData} />
+        <Minics socialsData={socialsData} />
         <Instagram socialsData={socialsData} />
         <Questions questionsData={questionsData} />
         <Reviews reviewsData={reviewsData} />
