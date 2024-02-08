@@ -17,6 +17,7 @@ import Reviews from '../Reviews/Reviews';
 import Clients from '../Clients/Clients';
 import Contacts from '../Contacts/Contacts';
 import Footer from '../Footer/Footer';
+import Buy from '../Buy/Buy';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Header />
       <Main>
         <VideoGrid videosData={videosData} />
+        <Buy socialsData={socialsData} />
         <About />
         <Minics socialsData={socialsData} />
         <Instagram socialsData={socialsData} />
