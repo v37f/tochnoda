@@ -1,6 +1,6 @@
 import './About.scss';
 
-function About() {
+function About({ videosData }) {
   return (
     <section className="about" id="about">
       <h1 className="about__title">Чемпионы мира по флористике</h1>

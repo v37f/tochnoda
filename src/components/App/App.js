@@ -4,6 +4,7 @@ import Main from '../Main/Main';
 import About from '../About/About';
 import Minics from '../Minics/Minics';
 import Instagram from '../Instagram/Instagram';
+import VideoGrid from '../VideoGrid/VideoGrid';
 import {
   videosData,
   socialsData,
@@ -22,8 +23,9 @@ function App() {
     <div className="App" id="app">
       <Header />
       <Main>
+        <VideoGrid videosData={videosData} />
         <About />
-        <Minics videosData={videosData} socialsData={socialsData} />
+        <Minics socialsData={socialsData} />
         <Instagram socialsData={socialsData} />
         <Questions questionsData={questionsData} />
         <Reviews reviewsData={reviewsData} />
