@@ -1,0 +1,40 @@
+@import '../../base/base';
+
+.buy {
+  display: flex;
+  align-items: flex-start;
+  align-self: stretch;
+  padding-bottom: 30px;
+
+  &__sale-price {
+    color: $secondary-color;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    min-width: fit-content;
+    margin: 0;
+  }
+
+  &__full-price {
+    color: #777;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    text-decoration: line-through;
+    padding-top: 22px;
+    min-width: fit-content;
+    margin: 0;
+  }
+
+  @media screen and (max-width: 425px) {
+    .buy {
+      &__sale-price {
+        font-size: 27.5px;
+      }
+
+      &__full-price {
+        font-size: 12px;
+      }
+    }
+  }
+}
